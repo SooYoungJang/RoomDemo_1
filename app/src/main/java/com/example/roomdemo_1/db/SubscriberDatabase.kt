@@ -10,7 +10,7 @@ abstract class SubscriberDatabase : RoomDatabase() {
 
     abstract val subscriberDAO:SubscriberDAO
 
-    //test
+    //test code git
     companion object {
         @Volatile
         private var INSTANCE : SubscriberDatabase? = null
